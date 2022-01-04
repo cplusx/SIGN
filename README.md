@@ -1,6 +1,11 @@
 # SIGN
 Code release for ICCV 2021 publication SIGN: Spatial-information Incorporated Generative Network for Generalized Zero-shot Semantic Segmentation
 
+### 0. Preparation
+Download the dataset and pretrained model from [Google Drive](https://drive.google.com/file/d/1P-VDqNcaKtn6xZXGMbRU4sei-gS8HeTr/view?usp=sharing).
+
+Unzip the downloaded file and put `dataset` and `trained_models` in the git repository
+
 ### 1. To use our trained models
 - For Pascal VOC without self-training
 
@@ -28,3 +33,6 @@ Code release for ICCV 2021 publication SIGN: Spatial-information Incorporated Ge
 
 ### 2. To train models
 Coming soon
+
+### Acknowledgement
+This code has borrowed a lot from [CaGNet](https://github.com/bcmi/CaGNet-Zero-Shot-Semantic-Segmentation). Appreciate for their great work.
